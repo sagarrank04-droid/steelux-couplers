@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" width="160" height="120">
+  <g transform="translate(40, 5)">
+    <path d="M18,30 C22,18 36,18 42,28 C34,26 24,34 22,46 C16,40 16,34 18,30 Z" fill="#ea580c"/>
+                   <path d="M62,50 C58,62 44,62 38,52 C46,54 56,46 58,34 C64,40 64,46 62,50 Z" fill="#ea580c"/>
+                   <path d="M28,62 C16,58 16,44 26,38 C24,46 32,56 44,58 C38,64 32,64 28,62 Z" fill="#1e293b"/>
+                   <path d="M52,18 C64,22 64,36 54,42 C56,34 48,24 36,22 C42,16 48,16 52,18 Z" fill="#1e293b"/>
+  </g>
+  <text x="80" y="94" font-family="Plus Jakarta Sans, Montserrat, -apple-system, sans-serif" font-size="12" font-weight="800" fill="#1e293b" text-anchor="middle" letter-spacing="1.2">SHIVANTA GROUP</text>
+  <text x="80" y="108" font-family="Space Grotesk, sans-serif" font-size="7.5" font-weight="600" fill="#ea580c" text-anchor="middle" letter-spacing="1.8">SIGNATURE RESIDENCES</text>
+</svg>

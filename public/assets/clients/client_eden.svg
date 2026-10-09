@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" width="160" height="120">
+  <g transform="translate(40, 5)">
+    <path d="M40,25 C45,15 65,15 70,30 C75,45 60,60 40,65 C20,60 5,45 10,30 C15,15 35,15 40,25 Z" fill="#2e7d32" opacity="0.9"/>
+                   <path d="M40,25 C50,35 55,50 40,65 C25,50 30,35 40,25 Z" fill="#ea580c"/>
+                   <path d="M25,35 Q40,48 55,35 Q40,60 25,35 Z" fill="#1e293b"/>
+  </g>
+  <text x="80" y="94" font-family="Plus Jakarta Sans, Montserrat, -apple-system, sans-serif" font-size="12" font-weight="800" fill="#1e293b" text-anchor="middle" letter-spacing="1.2">EDEN GROUP</text>
+  <text x="80" y="108" font-family="Space Grotesk, sans-serif" font-size="7.5" font-weight="600" fill="#ea580c" text-anchor="middle" letter-spacing="1.8">LUXURY LIVING &amp; INFRA</text>
+</svg>

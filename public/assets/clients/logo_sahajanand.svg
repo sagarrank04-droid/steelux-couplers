@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" width="160" height="120">
+  <g transform="translate(40, 5)">
+    <circle cx="40" cy="42" r="12" fill="none" stroke="#ea580c" stroke-width="4"/>
+                   <circle cx="40" cy="42" r="5" fill="#1e293b"/>
+                   <line x1="40" y1="14" x2="40" y2="24" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+                   <line x1="40" y1="60" x2="40" y2="70" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+                   <line x1="12" y1="42" x2="22" y2="42" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+                   <line x1="58" y1="42" x2="68" y2="42" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+                   <line x1="20" y1="22" x2="27" y2="29" stroke="#ea580c" stroke-width="4" stroke-linecap="round"/>
+                   <line x1="53" y1="55" x2="60" y2="62" stroke="#ea580c" stroke-width="4" stroke-linecap="round"/>
+                   <line x1="20" y1="62" x2="27" y2="55" stroke="#ea580c" stroke-width="4" stroke-linecap="round"/>
+                   <line x1="53" y1="29" x2="60" y2="22" stroke="#ea580c" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="80" y="94" font-family="Plus Jakarta Sans, Montserrat, -apple-system, sans-serif" font-size="12" font-weight="800" fill="#1e293b" text-anchor="middle" letter-spacing="1.2">SAHAJANAND GROUP</text>
+  <text x="80" y="108" font-family="Space Grotesk, sans-serif" font-size="7.5" font-weight="600" fill="#ea580c" text-anchor="middle" letter-spacing="1.8">ESTATE EXCELLENCE</text>
+</svg>

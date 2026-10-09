@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+          <defs>
+            <linearGradient id="g-varni" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#059669"/>
+              <stop offset="100%" stop-color="#047857"/>
+            </linearGradient>
+          </defs>
+          <rect width="100" height="100" rx="20" fill="#ecfdf5"/>
+          <path d="M22,22 L22,66 C22,72 27,78 34,78 L56,78 C62,78 68,72 68,66 L68,56 L40,56 L40,22 Z" fill="#0f172a"/>
+          <path d="M78,78 L78,34 C78,28 73,22 66,22 L44,22 C38,22 32,28 32,34 L32,44 L60,44 L60,78 Z" fill="url(#g-varni)"/>
+        </svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" width="160" height="120">
+  <g transform="translate(40, 5)">
+    <path d="M16,60 L16,40 L30,40 L30,60 Z" fill="#1e293b"/>
+                   <path d="M34,60 L34,28 L48,28 L48,60 Z" fill="#ea580c"/>
+                   <path d="M52,60 L52,16 L66,16 L66,60 Z" fill="#1e293b"/>
+                   <polyline points="16,36 34,24 52,12 66,12" fill="none" stroke="#ea580c" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="80" y="94" font-family="Plus Jakarta Sans, Montserrat, -apple-system, sans-serif" font-size="12" font-weight="800" fill="#1e293b" text-anchor="middle" letter-spacing="1.2">BHAGAT INFRA</text>
+  <text x="80" y="108" font-family="Space Grotesk, sans-serif" font-size="7.5" font-weight="600" fill="#ea580c" text-anchor="middle" letter-spacing="1.8">MEGA PROJECTS</text>
+</svg>

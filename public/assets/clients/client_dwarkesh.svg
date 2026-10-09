@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" width="160" height="120">
+  <g transform="translate(40, 5)">
+    <path d="M40,15 A25,25 0 0,1 65,40 A25,25 0 0,1 45,64" fill="none" stroke="#1e293b" stroke-width="6" stroke-linecap="round"/>
+                   <path d="M40,65 A25,25 0 0,1 15,40 A25,25 0 0,1 35,16" fill="none" stroke="#1e293b" stroke-width="6" stroke-linecap="round"/>
+                   <path d="M40,25 A15,15 0 0,1 55,40 A15,15 0 0,1 42,54" fill="none" stroke="#ea580c" stroke-width="5" stroke-linecap="round"/>
+                   <path d="M40,55 A15,15 0 0,1 25,40 A15,15 0 0,1 38,26" fill="none" stroke="#ea580c" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="80" y="94" font-family="Plus Jakarta Sans, Montserrat, -apple-system, sans-serif" font-size="12" font-weight="800" fill="#1e293b" text-anchor="middle" letter-spacing="1.2">DWARKESH GROUP</text>
+  <text x="80" y="108" font-family="Space Grotesk, sans-serif" font-size="7.5" font-weight="600" fill="#ea580c" text-anchor="middle" letter-spacing="1.8">LANDMARK TOWERS</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 140" width="100" height="140">
+  <defs>
+    <linearGradient id="sky-lotus_valley" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#701a75"/>
+      <stop offset="100%" stop-color="#a21caf"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="140" rx="14" fill="url(#sky-lotus_valley)"/>
+  <rect y="130" width="100" height="10" fill="#0f172a" opacity="0.8"/>
+  <path d="M25,135 L35,40 Q50,20 65,40 L75,135 Z" fill="#4a044e"/>
+                     <path d="M50,15 C42,28 35,45 35,65 Q50,75 65,65 C65,45 58,28 50,15 Z" fill="#f472b6" opacity="0.85"/>
+                     <g fill="#fdf2f8" opacity="0.75">
+                       <rect x="42" y="80" width="6" height="5"/> <rect x="52" y="80" width="6" height="5"/>
+                       <rect x="42" y="93" width="6" height="5"/> <rect x="52" y="93" width="6" height="5"/>
+                       <rect x="42" y="106" width="6" height="5"/> <rect x="52" y="106" width="6" height="5"/>
+                       <rect x="42" y="119" width="6" height="5"/> <rect x="52" y="119" width="6" height="5"/>
+                     </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+          <defs>
+            <linearGradient id="g-ananta" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#d97706"/>
+              <stop offset="100%" stop-color="#b45309"/>
+            </linearGradient>
+          </defs>
+          <rect width="100" height="100" rx="20" fill="#fffbeb"/>
+          <path d="M30,34 C20,34 12,42 12,50 C12,58 20,66 30,66 C42,66 50,50 50,50 C50,50 58,34 70,34 C80,34 88,42 88,50 C88,58 80,66 70,66 C58,66 50,50 50,50 C50,50 42,34 30,34 Z" fill="none" stroke="#0f172a" stroke-width="8" stroke-linecap="round"/>
+          <circle cx="30" cy="50" r="6" fill="url(#g-ananta)"/>
+          <circle cx="70" cy="50" r="6" fill="url(#g-ananta)"/>
+        </svg>

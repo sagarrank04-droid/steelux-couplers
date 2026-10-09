@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+          <defs>
+            <linearGradient id="g-shivanta" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#4f46e5"/>
+              <stop offset="100%" stop-color="#4338ca"/>
+            </linearGradient>
+          </defs>
+          <rect width="100" height="100" rx="20" fill="#eef2ff"/>
+          <path d="M20,38 C26,20 46,20 54,34 C44,32 30,42 28,58 C20,50 18,42 20,38 Z" fill="url(#g-shivanta)"/>
+          <path d="M80,62 C74,80 54,80 46,66 C56,68 70,58 72,42 C80,50 82,58 80,62 Z" fill="url(#g-shivanta)"/>
+          <path d="M34,80 C18,74 18,54 32,46 C30,58 40,70 56,74 C48,82 40,82 34,80 Z" fill="#0f172a"/>
+          <path d="M66,20 C82,26 82,46 68,54 C70,42 60,30 44,26 C52,18 60,18 66,20 Z" fill="#0f172a"/>
+        </svg>
