@@ -22,12 +22,9 @@
               <i class="bi bi-cash-stack"></i>
             </div>
             <h4 class="fw-bold mb-2">Up to 80% Cost Savings</h4>
-            <p class="text-secondary mb-3">
-              Direct reduction in steel purchase and labor costs. Completely eliminates the mandatory 50D overlap length steel wastage on every column and beam bar joint.
+            <p class="text-secondary mb-0">
+              Direct reduction in steel consumption by eliminating 50D overlap steel wastage on every joint.
             </p>
-            <div class="p-2 rounded bg-light border border-success border-opacity-25 small text-success fw-bold">
-              ✓ Saves up to ₹853 per 40mm joint connection
-            </div>
           </div>
         </div>
 
@@ -37,13 +34,10 @@
             <div class="icon-box" style="color: #0284c7; border-color: rgba(2,132,199,0.3); background: rgba(2,132,199,0.1);">
               <i class="bi bi-lightning-fill"></i>
             </div>
-            <h4 class="fw-bold mb-2">Quick & Easy Installation</h4>
-            <p class="text-secondary mb-3">
-              Simple mechanical screw-in engagement requiring only standard torque wrenches. Eliminates dangerous high-altitude site welding and special crane rigging.
+            <h4 class="fw-bold mb-2">Quick Installation</h4>
+            <p class="text-secondary mb-0">
+              Fast screw-in mechanical connection requiring no specialized welding or crane rigging.
             </p>
-            <div class="p-2 rounded bg-light border border-info border-opacity-25 small text-primary fw-bold">
-              ✓ Fast 30-second joint assembly time
-            </div>
           </div>
         </div>
 
@@ -53,13 +47,10 @@
             <div class="icon-box" style="color: #d97706; border-color: rgba(217,119,6,0.3); background: rgba(217,119,6,0.1);">
               <i class="bi bi-grid-3x3-gap-fill"></i>
             </div>
-            <h4 class="fw-bold mb-2">Superior Concrete Consolidation</h4>
-            <p class="text-secondary mb-3">
-              Drastically improves concrete aggregate flow and compaction by eliminating congested double/triple overlapping rebar clusters in dense column junctions.
+            <h4 class="fw-bold mb-2">Better Concrete Flow</h4>
+            <p class="text-secondary mb-0">
+              Eliminates congested multi-bar lap clusters for smooth aggregate flow and compaction.
             </p>
-            <div class="p-2 rounded bg-light border border-warning border-opacity-25 small text-warning fw-bold">
-              ✓ Prevents honeycomb void formation
-            </div>
           </div>
         </div>
 
@@ -70,12 +61,9 @@
               <i class="bi bi-shield-shaded"></i>
             </div>
             <h4 class="fw-bold mb-2">100% Bar Break Strength</h4>
-            <p class="text-secondary mb-3">
-              Delivers ultimate tensile strength greater than the parent TMT bar itself. Under severe cyclic seismic loading, failure occurs in the rebar, never at the coupler joint.
+            <p class="text-secondary mb-0">
+              Delivers ultimate tensile strength greater than the parent bar under high seismic loads.
             </p>
-            <div class="p-2 rounded bg-light border border-info border-opacity-25 small text-primary fw-bold">
-              ✓ Certified parent bar rupture guarantee
-            </div>
           </div>
         </div>
 
@@ -85,13 +73,10 @@
             <div class="icon-box" style="color: #9333ea; border-color: rgba(147,51,234,0.3); background: rgba(147,51,234,0.1);">
               <i class="bi bi-stopwatch"></i>
             </div>
-            <h4 class="fw-bold mb-2">Reduced Casting Cycle Times</h4>
-            <p class="text-secondary mb-3">
-              Accelerates floor slab and column cycle schedules by days per tier through rapid mechanical fastening, drastically reducing total project construction timelines.
+            <h4 class="fw-bold mb-2">Reduced Cycle Times</h4>
+            <p class="text-secondary mb-0">
+              Accelerates floor slab and column cycle schedules by days per tier for faster delivery.
             </p>
-            <div class="p-2 rounded bg-light border border-secondary border-opacity-25 small text-dark fw-bold">
-              ✓ Shorter slab shuttering turnarounds
-            </div>
           </div>
         </div>
 
@@ -102,12 +87,9 @@
               <i class="bi bi-check-circle-fill"></i>
             </div>
             <h4 class="fw-bold mb-2">Concentric Bar Alignment</h4>
-            <p class="text-secondary mb-3">
-              Maintains exact coaxial bar centerline alignment without the eccentric bending moments and load deviations inherently caused by side-by-side lap tying.
+            <p class="text-secondary mb-0">
+              Maintains exact coaxial bar centerline alignment with zero offset eccentric bending moments.
             </p>
-            <div class="p-2 rounded bg-light border border-danger border-opacity-25 small text-danger fw-bold">
-              ✓ Zero offset eccentric moment
-            </div>
           </div>
         </div>
       </div>

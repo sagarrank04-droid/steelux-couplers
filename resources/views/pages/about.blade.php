@@ -16,22 +16,26 @@
     <div class="container py-4">
       <div class="row align-items-center gy-4 mb-5">
         <div class="col-lg-6" data-aos="fade-right">
-          <h2 class="section-title">Transforming Structures Worldwide</h2>
-          <p class="text-secondary mb-3" style="line-height: 1.8;">
-            <strong>Steelux Industries (ORIN)</strong> is a specialized construction engineering and mechanical rebar management enterprise headquartered in Surat, Gujarat. We are committed to revolutionizing modern reinforced concrete (RCC) construction through cutting-edge mechanical splicing technology.
+          <h2 class="section-title">Transforming Modern Construction</h2>
+          <p class="text-secondary mb-3" style="line-height: 1.7;">
+            <strong>Steelux Industries (ORIN)</strong> is a specialized mechanical rebar splicing enterprise based in Surat, Gujarat. We replace traditional 50D overlap lapping with certified concentric couplers—eliminating up to 80% steel wastage, relieving column congestion, and guaranteeing 100% parent bar break strength.
           </p>
-          <p class="text-secondary mb-3" style="line-height: 1.8;">
-            Traditional overlap lapping consumes enormous extra steel (50D length), causes severe reinforcement cage congestion in dense column cores, and creates weak offset load transfers. ORIN mechanical couplers eliminate these flaws completely—providing concentric load transfer, continuous structural ductility, and over <strong>70% direct financial savings</strong> on every joint.
-          </p>
-          <p class="text-secondary mb-4" style="line-height: 1.8;">
-            Every coupler produced in our facility is precision-engineered using prime high-tensile alloy steel and threaded under rigorous ISO metric standards to deliver a guaranteed <strong>100% parent bar break strength</strong>.
-          </p>
+          <div class="d-flex flex-wrap gap-3 mb-4">
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-patch-check-fill text-info fs-5"></i>
+              <span class="text-dark fw-bold">ISO Metric Standard Certified</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-shield-check text-success fs-5"></i>
+              <span class="text-dark fw-bold">100% Bar Break Guarantee</span>
+            </div>
+          </div>
           <div class="d-flex flex-wrap gap-3">
             <a href="{{ route('contact') }}" class="btn btn-orin-primary">
               <i class="bi bi-chat-dots-fill"></i> Partner With Us
             </a>
             <a href="{{ asset('brocure.pdf') }}" target="_blank" class="btn btn-orin-secondary">
-              <i class="bi bi-file-earmark-pdf-fill text-danger"></i> Download Company Brochure
+              <i class="bi bi-file-earmark-pdf-fill text-danger"></i> Download Brochure
             </a>
           </div>
         </div>
@@ -63,9 +67,9 @@
             <div class="icon-box">
               <i class="bi bi-shield-check"></i>
             </div>
-            <h4 class="fw-bold mb-2">Quality & ISO Certification</h4>
+            <h4 class="fw-bold mb-2">Quality &amp; Standards</h4>
             <p class="text-secondary mb-0">
-              Manufactured strictly in compliance with international mechanical splicing standards and certified ISO Metric threading specifications.
+              Compliant with IS 16172 and international mechanical splicing specifications.
             </p>
           </div>
         </div>
@@ -77,7 +81,7 @@
             </div>
             <h4 class="fw-bold mb-2">Advanced Machinery</h4>
             <p class="text-secondary mb-0">
-              State-of-the-art Rebar Roll Parallel Threading and Cold Forging machines mobilized directly to your project sites across India.
+              High-speed parallel threading and cold forging units mobilized across India.
             </p>
           </div>
         </div>
@@ -87,30 +91,31 @@
             <div class="icon-box" style="color: #059669; border-color: rgba(5,150,105,0.3); background: rgba(5,150,105,0.1);">
               <i class="bi bi-recycle"></i>
             </div>
-            <h4 class="fw-bold mb-2">Eco-Friendly & Sustainable</h4>
+            <h4 class="fw-bold mb-2">Steel Conservation</h4>
             <p class="text-secondary mb-0">
-              Conserving thousands of tons of high-grade steel, reducing embodied carbon footprints, and supporting green construction benchmarks.
+              Eliminates tons of unnecessary lap steel, lowering costs and carbon footprint.
             </p>
           </div>
         </div>
       </div>
 
       <!-- Surat Works Info Card -->
-      <div class="orin-card p-4 p-md-5" data-aos="fade-up">
-        <div class="row align-items-center gy-4">
+      <div class="orin-card p-3 p-sm-4 p-md-5" data-aos="fade-up">
+        <div class="row align-items-center gy-3">
           <div class="col-lg-8">
-            <h3 class="fw-bold mb-2">Surat Manufacturing Plant & Headquarters</h3>
-            <p class="text-secondary mb-2">
+            <h4 class="fw-bold text-dark mb-2">Surat Manufacturing Plant &amp; Headquarters</h4>
+            <p class="text-secondary mb-2 small" style="line-height: 1.6;">
               <i class="bi bi-geo-alt-fill text-danger me-2"></i>
               5, Laxman Nagar Industries, Besides Daimond Nagar, Laskana, Surat - 395006, Gujarat, India
             </p>
-            <p class="text-secondary mb-0">
-              <i class="bi bi-telephone-fill text-primary me-2"></i>
-              Direct Helpline: <strong>+91 88490 01529</strong> / <strong>+91 99793 05461</strong> &bull; Email: <strong>steelux7227@gmail.com</strong>
-            </p>
+            <div class="d-flex flex-wrap align-items-center gap-2 text-secondary small pt-1">
+              <span><i class="bi bi-telephone-fill text-primary me-1"></i> <a href="tel:+918849001529" class="text-secondary text-decoration-none">+91 88490 01529</a> / <a href="tel:+919979305461" class="text-secondary text-decoration-none">+91 99793 05461</a></span>
+              <span class="d-none d-sm-inline opacity-50">&bull;</span>
+              <span><i class="bi bi-envelope-fill text-primary me-1"></i> <a href="mailto:steelux7227@gmail.com" class="text-secondary text-decoration-none">steelux7227@gmail.com</a></span>
+            </div>
           </div>
-          <div class="col-lg-4 text-lg-end">
-            <a href="{{ route('contact') }}" class="btn btn-orin-primary">
+          <div class="col-lg-4 text-lg-end pt-2 pt-lg-0">
+            <a href="{{ route('contact') }}" class="btn btn-orin-primary btn-mobile-full">
               <i class="bi bi-send-fill"></i> Contact Plant Today
             </a>
           </div>

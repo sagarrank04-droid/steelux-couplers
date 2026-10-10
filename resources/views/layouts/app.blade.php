@@ -36,8 +36,6 @@
   <div class="bg-mesh-animated"></div>
   <div class="bg-grid-overlay"></div>
 
-  <!-- Top Announcement Bar -->
-  @include('partials.topbar')
 
   <!-- Sticky Navbar -->
   @include('partials.navbar')

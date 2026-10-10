@@ -19,9 +19,9 @@
           
           <!-- Contact Info Left Column -->
           <div class="col-lg-6">
-            <h2 class="section-title mb-3">Direct Factory Dispatch & Helpline</h2>
-            <p class="text-secondary mb-4" style="line-height: 1.75; font-size: 1.05rem;">
-              Whether you need 500 or 50,000 couplers, or complete on-site machine setup, our technical engineers are ready to support your project.
+            <h2 class="section-title mb-3">Direct Factory Dispatch &amp; Helpline</h2>
+            <p class="text-secondary mb-4">
+              Get immediate coupler dispatches, test reports, or machine mobilization on your active site.
             </p>
 
             <div class="d-flex flex-column gap-3 mb-4">
@@ -30,9 +30,11 @@
                   <i class="bi bi-telephone-fill"></i>
                 </div>
                 <div>
-                  <small class="text-secondary text-uppercase fw-bold d-block">Mobile Helpline</small>
-                  <a href="tel:+918849001529" class="text-dark fw-bold text-decoration-none fs-6">+91 88490 01529</a> / 
-                  <a href="tel:+919979305461" class="text-dark fw-bold text-decoration-none fs-6">+91 99793 05461</a>
+                  <small class="text-secondary text-uppercase d-block" style="font-size: 0.75rem; letter-spacing: 0.04em;">Mobile Helpline</small>
+                  <p class="text-secondary mb-0">
+                    <a href="tel:+918849001529" class="text-secondary text-decoration-none">+91 88490 01529</a> / 
+                    <a href="tel:+919979305461" class="text-secondary text-decoration-none">+91 99793 05461</a>
+                  </p>
                 </div>
               </div>
 
@@ -41,8 +43,10 @@
                   <i class="bi bi-envelope-fill"></i>
                 </div>
                 <div>
-                  <small class="text-secondary text-uppercase fw-bold d-block">Email Address</small>
-                  <a href="mailto:steelux7227@gmail.com" class="text-dark fw-bold text-decoration-none fs-6">steelux7227@gmail.com</a>
+                  <small class="text-secondary text-uppercase d-block" style="font-size: 0.75rem; letter-spacing: 0.04em;">Email Address</small>
+                  <p class="text-secondary mb-0">
+                    <a href="mailto:steelux7227@gmail.com" class="text-secondary text-decoration-none">steelux7227@gmail.com</a>
+                  </p>
                 </div>
               </div>
 
@@ -51,14 +55,14 @@
                   <i class="bi bi-geo-alt-fill"></i>
                 </div>
                 <div>
-                  <small class="text-secondary text-uppercase fw-bold d-block">Factory & Office Address</small>
-                  <p class="text-dark mb-0 fw-semibold">5, Laxman Nagar Industries, Besides Daimond Nagar, Laskana, Surat - 395006, Gujarat, India</p>
+                  <small class="text-secondary text-uppercase d-block" style="font-size: 0.75rem; letter-spacing: 0.04em;">Factory &amp; Office Address</small>
+                  <p class="text-secondary mb-0">5, Laxman Nagar Industries, Besides Daimond Nagar, Laskana, Surat - 395006, Gujarat, India</p>
                 </div>
               </div>
             </div>
 
             <div class="p-3 bg-light rounded-3 border border-subtle">
-              <div class="d-flex align-items-center gap-2 text-dark fw-bold mb-1">
+              <div class="d-flex align-items-center gap-2 text-dark mb-1" style="font-weight: 600;">
                 <i class="bi bi-truck text-primary"></i> Rapid Dispatch Guarantee:
               </div>
               <small class="text-secondary">Standard 16mm to 40mm ISO metric couplers ready in stock for immediate national dispatch within 24-48 hours.</small>
@@ -67,7 +71,7 @@
 
           <!-- Quote Request Form Right Column -->
           <div class="col-lg-6">
-            <div class="p-4 rounded-4" style="background: #f8fafc; border: 1px solid var(--border-subtle); box-shadow: var(--shadow-sm);">
+            <div class="p-3 p-sm-4 rounded-4" style="background: #f8fafc; border: 1px solid var(--border-subtle); box-shadow: var(--shadow-sm);">
               <h4 class="fw-bold text-dark mb-1">Send Instant Inquiry</h4>
               <p class="text-secondary small mb-4">Get official pricing and machine deployment timeline directly on WhatsApp.</p>
 
@@ -107,8 +111,8 @@
                   <textarea name="reqMessage" id="reqMessage" class="form-control custom-input" rows="2" placeholder="Project name, city or delivery timeline..."></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-orin-primary w-100 py-3 justify-content-center">
-                  <i class="bi bi-whatsapp fs-5"></i> Send Quote Inquiry via WhatsApp ⚡
+                <button type="submit" class="btn btn-orin-primary w-100 py-2 py-sm-3 justify-content-center text-center">
+                  <i class="bi bi-whatsapp fs-5 flex-shrink-0"></i> <span>Send Quote Inquiry via WhatsApp</span>
                 </button>
               </form>
             </div>

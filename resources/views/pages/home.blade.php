@@ -15,8 +15,8 @@
           </h1>
           
           <!-- Enriched Description (Centered) -->
-          <p class="hero-lead text-center mx-auto" style="max-width: 860px;">
-            Steelux Industries (ORIN) is India's trusted pioneer in precision mechanical rebar couplers and high-speed on-site threading technology. We replace expensive, congested lap joints with 100% full-strength continuous steel connections—guaranteeing superior load transfer under extreme seismic forces while cutting steel splicing costs by up to <strong class="text-white">80%</strong> across commercial high-rises, bridges, and infrastructure.
+          <p class="hero-lead text-center mx-auto" style="max-width: 820px;">
+            India's trusted pioneer in precision rebar couplers and on-site threading technology. Replace congested lap joints with 100% full-strength mechanical connections and reduce joint costs by up to <strong class="text-white">80%</strong>.
           </p>
 
           <!-- Hero Action Buttons (Centered) -->
@@ -29,19 +29,19 @@
           <!-- Hero Metrics Grid (Translucent Glassmorphism, Centered) -->
           <div class="hero-stats-box hero-stats-glass mx-auto" style="max-width: 980px;">
             <div class="row g-2 text-center">
-              <div class="col-3 stat-item" data-aos="zoom-in" data-aos-delay="200">
+              <div class="col-6 col-sm-3 stat-item" data-aos="zoom-in" data-aos-delay="200">
                 <div class="stat-number">> 100%</div>
                 <div class="stat-label text-white-50">Bar Break Strength</div>
               </div>
-              <div class="col-3 stat-item" data-aos="zoom-in" data-aos-delay="300">
+              <div class="col-6 col-sm-3 stat-item" data-aos="zoom-in" data-aos-delay="300">
                 <div class="stat-number">Up to 80%</div>
                 <div class="stat-label text-white-50">Joint Cost Saved</div>
               </div>
-              <div class="col-3 stat-item" data-aos="zoom-in" data-aos-delay="400">
+              <div class="col-6 col-sm-3 stat-item" data-aos="zoom-in" data-aos-delay="400">
                 <div class="stat-number">15+ Iconic</div>
                 <div class="stat-label text-white-50">Towers Supplied</div>
               </div>
-              <div class="col-3 stat-item" data-aos="zoom-in" data-aos-delay="500">
+              <div class="col-6 col-sm-3 stat-item" data-aos="zoom-in" data-aos-delay="500">
                 <div class="stat-number">16-40mm</div>
                 <div class="stat-label text-white-50">Rebar Diameters</div>
               </div>
@@ -59,7 +59,7 @@
       <div class="section-header text-center" data-aos="fade-up">
         <h2 class="section-title">Our Core Services</h2>
         <p class="text-secondary">
-          Steelux Industries is one of the pioneers to offer creative infrastructure solutions and precision mechanical splicing systems for modern reinforced concrete structures.
+          Pioneering creative infrastructure solutions and certified mechanical splicing systems for modern reinforced concrete structures.
         </p>
       </div>
 
@@ -72,7 +72,7 @@
             </div>
             <h4 class="fw-bold mb-2">Infrastructure Solutions</h4>
             <p class="text-secondary mb-3">
-              Pioneers in offering creative infrastructure solutions. For reinforcement bars in civil towers, metro rails, and bridges, we provide certified high-tensile mechanical couplers.
+              Certified high-tensile mechanical rebar couplers engineered for high-rise towers, metro rails, and bridge infrastructure.
             </p>
             <a href="{{ route('services') }}" class="text-primary fw-bold text-decoration-none small">Learn More <i class="bi bi-arrow-right"></i></a>
           </div>
@@ -84,9 +84,9 @@
             <div class="icon-box" style="color: #0284c7; border-color: rgba(2,132,199,0.3); background: rgba(2,132,199,0.1);">
               <i class="bi bi-gear-wide-connected"></i>
             </div>
-            <h4 class="fw-bold mb-2">Manufacturer & Wholesaler</h4>
+            <h4 class="fw-bold mb-2">Manufacturer &amp; Wholesaler</h4>
             <p class="text-secondary mb-3">
-              Leading manufacturer and wholesale supplier of precision Parallel Threaded & Cold Forged couplers with standard ISO metric internal threads from 16mm to 40mm.
+              Precision Parallel Threaded &amp; Cold Forged couplers with standard ISO metric internal threads from 16mm to 40mm.
             </p>
             <a href="{{ route('services') }}" class="text-primary fw-bold text-decoration-none small">Learn More <i class="bi bi-arrow-right"></i></a>
           </div>
@@ -98,9 +98,9 @@
             <div class="icon-box" style="color: #059669; border-color: rgba(5,150,105,0.3); background: rgba(5,150,105,0.1);">
               <i class="bi bi-truck"></i>
             </div>
-            <h4 class="fw-bold mb-2">On-Site Machine Mobilization</h4>
+            <h4 class="fw-bold mb-2">On-Site Mobilization</h4>
             <p class="text-secondary mb-3">
-              Rapid on-site deployment of Rebar Roll Parallel Thread Machines and Cold Forging units with expert technical supervision and guaranteed 5-10 day mobilization time.
+              Rapid on-site machine deployment and skilled technical supervision with fast 5–10 day mobilization.
             </p>
             <a href="{{ route('services') }}" class="text-primary fw-bold text-decoration-none small">Learn More <i class="bi bi-arrow-right"></i></a>
           </div>
@@ -115,11 +115,8 @@
       <div class="row align-items-center gy-4">
         <div class="col-lg-6" data-aos="fade-right">
           <h2 class="section-title">About Steelux Industries (ORIN)</h2>
-          <p class="text-secondary mb-3" style="line-height: 1.8;">
-            Steelux Industries (ORIN) is a specialized construction and mechanical rebar management enterprise based in Surat, Gujarat. Our company vision is to transform reinforced concrete structures worldwide with high-tensile TMT joint materials for a sustainable, zero-waste tomorrow.
-          </p>
-          <p class="text-secondary mb-4" style="line-height: 1.8;">
-            By replacing clumsy, wasteful overlap lapping with concentric mechanical splicing, our systems eliminate up to 80% of steel waste, improve concrete consolidation in dense columns, and ensure 100% full bar break strength under severe cyclic seismic loads.
+          <p class="text-secondary mb-4" style="line-height: 1.75;">
+            Steelux Industries (ORIN) is a specialized mechanical rebar management enterprise based in Surat, Gujarat. We replace wasteful overlap lapping with certified concentric couplers—eliminating up to 80% steel waste, improving concrete flow in dense columns, and guaranteeing 100% bar break strength.
           </p>
           <div class="d-flex flex-wrap gap-3 mb-4">
             <div class="d-flex align-items-center gap-2">
@@ -132,24 +129,24 @@
             </div>
           </div>
           <a href="{{ route('about') }}" class="btn btn-orin-primary">
-            Read Full Company Profile <i class="bi bi-arrow-right ms-1"></i>
+            Read Full Profile <i class="bi bi-arrow-right ms-1"></i>
           </a>
         </div>
 
         <div class="col-lg-6" data-aos="fade-left">
           <div class="row g-3">
-            <div class="col-6">
-              <div class="orin-card text-center p-4">
+            <div class="col-12 col-sm-6">
+              <div class="orin-card text-center p-3 p-sm-4">
                 <i class="bi bi-bullseye fs-1 text-primary mb-2"></i>
                 <h5 class="fw-bold mb-1">Our Mission</h5>
-                <p class="text-secondary small mb-0">Achieving 100% structural joint efficiency with zero steel wastage across global towers.</p>
+                <p class="text-secondary small mb-0">100% structural efficiency with zero steel wastage across global towers.</p>
               </div>
             </div>
-            <div class="col-6">
-              <div class="orin-card text-center p-4">
+            <div class="col-12 col-sm-6">
+              <div class="orin-card text-center p-3 p-sm-4">
                 <i class="bi bi-eye fs-1 text-info mb-2"></i>
                 <h5 class="fw-bold mb-1">Our Vision</h5>
-                <p class="text-secondary small mb-0">Leading the infrastructure revolution as India's most trusted mechanical splicing innovator.</p>
+                <p class="text-secondary small mb-0">Leading the construction revolution as India's most trusted splicing innovator.</p>
               </div>
             </div>
             <div class="col-12">
@@ -175,7 +172,7 @@
       <div class="section-header text-center" data-aos="fade-up">
         <h2 class="section-title">Key Benefits of ORIN Couplers</h2>
         <p class="text-secondary">
-          Every joint connected with ORIN mechanical couplers delivers direct financial savings, cleaner reinforcement cages, and superior concrete consolidation.
+          Maximum joint strength, zero steel wastage, and significant cost savings on every project.
         </p>
       </div>
 
@@ -187,7 +184,7 @@
             </div>
             <h4 class="fw-bold mb-2">Cost Saving</h4>
             <p class="text-secondary mb-0">
-              Significant cost savings due to direct reduction in steel consumption and labor. Eliminates 50D overlap steel wastage completely.
+              Direct reduction in steel consumption and labor costs by eliminating 50D overlap steel wastage.
             </p>
           </div>
         </div>
@@ -197,9 +194,9 @@
             <div class="icon-box" style="color: #0284c7; border-color: rgba(2,132,199,0.3); background: rgba(2,132,199,0.1);">
               <i class="bi bi-lightning-fill"></i>
             </div>
-            <h4 class="fw-bold mb-2">Quick & Easy Installation</h4>
+            <h4 class="fw-bold mb-2">Quick Installation</h4>
             <p class="text-secondary mb-0">
-              Simple screw-in engagement without specialized high-altitude welding or complex handling apparatus.
+              Fast screw-in installation without specialized welding or complex handling equipment.
             </p>
           </div>
         </div>
@@ -211,7 +208,7 @@
             </div>
             <h4 class="fw-bold mb-2">Better Concrete Flow</h4>
             <p class="text-secondary mb-0">
-              Improvement in concrete flow and consolidation by eliminating congested multi-bar overlapping in dense column cores.
+              Eliminates congested multi-bar cages for smoother concrete flow and optimal compaction.
             </p>
           </div>
         </div>
@@ -225,7 +222,7 @@
       <div class="section-header text-center" data-aos="fade-up">
         <h2 class="section-title">Our 3-Step Splicing Process</h2>
         <p class="text-secondary">
-          Effortless 3-step procedural method ensuring 100% mechanical joint reliability on active high-rise construction sites.
+          Fast, certified on-site mechanical splicing in 3 simple steps.
         </p>
       </div>
 
@@ -234,12 +231,9 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
           <div class="process-step-box">
             <div class="process-step-num">1</div>
-            <div class="icon-box mx-auto mb-3" style="width: 60px; height: 60px; font-size: 1.6rem;">
-              <i class="bi bi-tools"></i>
-            </div>
             <h4 class="fw-bold mb-2">Step 1: Threading on Site</h4>
             <p class="text-secondary mb-0">
-              The two rebars are peeled and rolled thread on site as per ISO metric standards, and an appropriate high-tensile coupler is supplied.
+              Rebars are peeled and roll-threaded on site as per ISO metric standard specifications.
             </p>
           </div>
         </div>
@@ -248,12 +242,9 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
           <div class="process-step-box">
             <div class="process-step-num">2</div>
-            <div class="icon-box mx-auto mb-3" style="width: 60px; height: 60px; font-size: 1.6rem; color: #0284c7; border-color: rgba(2,132,199,0.3); background: rgba(2,132,199,0.1);">
-              <i class="bi bi-nut-fill"></i>
-            </div>
             <h4 class="fw-bold mb-2">Step 2: Coupler Bolting</h4>
             <p class="text-secondary mb-0">
-              The coupler is screwed and bolted onto the already fixed rebar member securely up to the mid-length stop point.
+              Coupler is screwed and bolted onto the fixed rebar securely up to the mid-stop.
             </p>
           </div>
         </div>
@@ -262,12 +253,9 @@
         <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-delay="300">
           <div class="process-step-box">
             <div class="process-step-num">3</div>
-            <div class="icon-box mx-auto mb-3" style="width: 60px; height: 60px; font-size: 1.6rem; color: #059669; border-color: rgba(5,150,105,0.3); background: rgba(5,150,105,0.1);">
-              <i class="bi bi-link-45deg"></i>
-            </div>
-            <h4 class="fw-bold mb-2">Step 3: Fastening & Lock</h4>
+            <h4 class="fw-bold mb-2">Step 3: Fastening &amp; Lock</h4>
             <p class="text-secondary mb-0">
-              The free connecting rebar is fastened into the other end of the coupler and torque-tightened to complete the full tensile continuity splice.
+              Connecting rebar is fastened and torque-tightened for 100% continuous tensile strength.
             </p>
           </div>
         </div>
@@ -281,7 +269,7 @@
       <div class="section-header text-center" data-aos="fade-up">
         <h2 class="section-title">Cost Comparison: Lapping V/S Coupler</h2>
         <p class="text-secondary">
-          Evaluate instant project savings with our interactive calculator or explore the complete official engineering test comparison sheet.
+          Evaluate instant project savings with our interactive calculator.
         </p>
       </div>
 
@@ -356,7 +344,7 @@
     <div class="container py-4">
       <div class="section-header text-center" data-aos="fade-up">
         <h2 class="section-title">Trusted By Premier Developers</h2>
-        <p class="text-secondary">All 15 valued developer customers and 15 prestigious high-rise landmark projects powered by ORIN mechanical rebar couplers.</p>
+        <p class="text-secondary">Trusted by 15+ premier developers across landmark commercial and residential towers.</p>
       </div>
 
       <!-- Customers Ticker (Logo Top, Name Bottom) -->

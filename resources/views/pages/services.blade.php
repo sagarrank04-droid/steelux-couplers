@@ -23,12 +23,12 @@
             </div>
             <h4 class="fw-bold mb-2">Infrastructure Solutions</h4>
             <p class="text-secondary mb-3">
-              Pioneers in offering creative building and infrastructure solutions. For reinforcement bars in commercial towers, bridges, and transport corridors, we provide certified high-tensile mechanical couplers.
+              Certified high-tensile couplers engineered for high-rise towers, metro rails, and bridges.
             </p>
             <ul class="feature-list-items small">
               <li><i class="bi bi-check-circle-fill"></i> Concentric load distribution</li>
-              <li><i class="bi bi-check-circle-fill"></i> Eliminate overlap lap length waste</li>
-              <li><i class="bi bi-check-circle-fill"></i> Suitable for 16mm to 40mm rebars</li>
+              <li><i class="bi bi-check-circle-fill"></i> Zero 50D overlap steel waste</li>
+              <li><i class="bi bi-check-circle-fill"></i> 16mm to 40mm rebars</li>
             </ul>
           </div>
         </div>
@@ -39,13 +39,13 @@
             <div class="icon-box" style="color: #0284c7; border-color: rgba(2,132,199,0.3); background: rgba(2,132,199,0.1);">
               <i class="bi bi-gear-wide-connected"></i>
             </div>
-            <h4 class="fw-bold mb-2">Manufacturer & Wholesaler</h4>
+            <h4 class="fw-bold mb-2">Manufacturer &amp; Wholesaler</h4>
             <p class="text-secondary mb-3">
-              Leading manufacturer and wholesale supplier of precision Parallel Threaded & Cold Forged couplers with standard ISO metric internal threads from 16mm to 40mm.
+              Precision Parallel Threaded &amp; Cold Forged couplers with standard ISO metric internal threads.
             </p>
             <ul class="feature-list-items small">
               <li><i class="bi bi-check-circle-fill"></i> High-volume factory capacity</li>
-              <li><i class="bi bi-check-circle-fill"></i> 100% strict dimensional tolerance</li>
+              <li><i class="bi bi-check-circle-fill"></i> Strict dimensional tolerance</li>
               <li><i class="bi bi-check-circle-fill"></i> Custom thread pitch available</li>
             </ul>
           </div>
@@ -59,12 +59,12 @@
             </div>
             <h4 class="fw-bold mb-2">On-Site Machine Mobilization</h4>
             <p class="text-secondary mb-3">
-              Rapid on-site deployment of Rebar Roll Parallel Thread Machines and Cold Forging units with expert technical supervision and guaranteed 5-10 day mobilization time.
+              Rapid site deployment of threading machines with certified operators and technical supervision.
             </p>
             <ul class="feature-list-items small">
-              <li><i class="bi bi-check-circle-fill"></i> 5-10 day rapid site deployment</li>
-              <li><i class="bi bi-check-circle-fill"></i> Trained machine operators provided</li>
-              <li><i class="bi bi-check-circle-fill"></i> Zero maintenance downtime guarantee</li>
+              <li><i class="bi bi-check-circle-fill"></i> 5-10 day rapid mobilization</li>
+              <li><i class="bi bi-check-circle-fill"></i> Trained machine operators</li>
+              <li><i class="bi bi-check-circle-fill"></i> Zero downtime support</li>
             </ul>
           </div>
         </div>
@@ -75,14 +75,14 @@
             <div class="icon-box" style="color: #d97706; border-color: rgba(217,119,6,0.3); background: rgba(217,119,6,0.1);">
               <i class="bi bi-wrench-adjustable-circle"></i>
             </div>
-            <h4 class="fw-bold mb-2">Rebar Threading & Processing</h4>
+            <h4 class="fw-bold mb-2">Rebar Threading &amp; Processing</h4>
             <p class="text-secondary mb-3">
-              Professional end-peeling and cold-roll threading directly at your site or precast fabrication yards, ensuring flawless ISO metric screw engagement every single time.
+              End-peeling and cold-roll threading directly at site or precast yards for perfect engagement.
             </p>
             <ul class="feature-list-items small">
-              <li><i class="bi bi-check-circle-fill"></i> ISO Metric standard thread pitch</li>
-              <li><i class="bi bi-check-circle-fill"></i> Rust-preventive end cap protection</li>
-              <li><i class="bi bi-check-circle-fill"></i> Fast per-minute cycle threading</li>
+              <li><i class="bi bi-check-circle-fill"></i> ISO Metric standard thread</li>
+              <li><i class="bi bi-check-circle-fill"></i> Protective plastic end caps</li>
+              <li><i class="bi bi-check-circle-fill"></i> High per-minute output</li>
             </ul>
           </div>
         </div>
@@ -93,14 +93,14 @@
             <div class="icon-box" style="color: #9333ea; border-color: rgba(147,51,234,0.3); background: rgba(147,51,234,0.1);">
               <i class="bi bi-clipboard2-pulse"></i>
             </div>
-            <h4 class="fw-bold mb-2">Tensile Testing & Quality Lab</h4>
+            <h4 class="fw-bold mb-2">Tensile Testing &amp; Quality Lab</h4>
             <p class="text-secondary mb-3">
-              Comprehensive ultimate tensile strength pull testing, cyclic seismic compliance verification, and test report certificates issued for structural consultants.
+              Tensile pull testing and cyclic compliance verification with consultant-approved reports.
             </p>
             <ul class="feature-list-items small">
-              <li><i class="bi bi-check-circle-fill"></i> 100% Parent Bar Break Certification</li>
-              <li><i class="bi bi-check-circle-fill"></i> Batch test certificates supplied</li>
-              <li><i class="bi bi-check-circle-fill"></i> Consultant approval documentation</li>
+              <li><i class="bi bi-check-circle-fill"></i> 100% Bar Break Certification</li>
+              <li><i class="bi bi-check-circle-fill"></i> Batch test reports supplied</li>
+              <li><i class="bi bi-check-circle-fill"></i> Consultant approval ready</li>
             </ul>
           </div>
         </div>
@@ -111,14 +111,14 @@
             <div class="icon-box" style="color: #dc2626; border-color: rgba(220,38,38,0.3); background: rgba(220,38,38,0.1);">
               <i class="bi bi-calculator"></i>
             </div>
-            <h4 class="fw-bold mb-2">Project Estimation & ROI Audit</h4>
+            <h4 class="fw-bold mb-2">Project Estimation &amp; ROI Audit</h4>
             <p class="text-secondary mb-3">
-              Complete structural BBS (Bar Bending Schedule) analysis and steel savings cost audit for commercial towers, residential townships, and bridges.
+              Structural BBS analysis and cost audit to calculate exact steel tonnage savings.
             </p>
             <ul class="feature-list-items small">
               <li><i class="bi bi-check-circle-fill"></i> Free project steel audit</li>
-              <li><i class="bi bi-check-circle-fill"></i> Direct tonnage savings report</li>
-              <li><i class="bi bi-check-circle-fill"></i> Guaranteed bottom-line savings</li>
+              <li><i class="bi bi-check-circle-fill"></i> Tonnage savings report</li>
+              <li><i class="bi bi-check-circle-fill"></i> Up to 80% joint cost savings</li>
             </ul>
           </div>
         </div>

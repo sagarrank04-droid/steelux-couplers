@@ -43,21 +43,21 @@
                 <div class="process-step-box p-3">
                   <div class="process-step-num" style="width:36px;height:36px;font-size:1rem;margin-bottom:0.75rem;">1</div>
                   <h6 class="fw-bold mb-1">1. Peeling</h6>
-                  <p class="text-secondary small mb-0">The ribbing at the end of the bar is peeled uniformly to establish a precise concentric diameter.</p>
+                  <p class="text-secondary small mb-0">Ribbing is peeled uniformly to create a smooth concentric diameter.</p>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="process-step-box p-3">
                   <div class="process-step-num" style="width:36px;height:36px;font-size:1rem;margin-bottom:0.75rem;">2</div>
                   <h6 class="fw-bold mb-1">2. Threading</h6>
-                  <p class="text-secondary small mb-0">The peeled end is cold-rolled thread under heavy hydraulic pressure as per ISO metric standards.</p>
+                  <p class="text-secondary small mb-0">Cold-rolled ISO metric threads are machined under hydraulic pressure.</p>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="process-step-box p-3">
                   <div class="process-step-num" style="width:36px;height:36px;font-size:1rem;margin-bottom:0.75rem;">3</div>
                   <h6 class="fw-bold mb-1">3. Mechanical Splicing</h6>
-                  <p class="text-secondary small mb-0">Standard ORIN Parallel Coupler is screwed to connect two rebars with full tensile continuity.</p>
+                  <p class="text-secondary small mb-0">Coupler is screwed to connect two rebars with 100% tensile strength.</p>
                 </div>
               </div>
             </div>
@@ -94,27 +94,27 @@
         <!-- Cold Forged Pane -->
         <div class="tab-pane fade" id="forged-pane" role="tabpanel">
           <div class="orin-card p-4 p-md-5">
-            <h4 class="fw-bold mb-3">Rebar Cold Forging & Threading System</h4>
+            <h4 class="fw-bold mb-3">Rebar Cold Forging &amp; Threading System</h4>
             <div class="row g-3 mb-4">
               <div class="col-md-4">
                 <div class="process-step-box p-3">
                   <div class="process-step-num" style="width:36px;height:36px;font-size:1rem;margin-bottom:0.75rem;">1</div>
                   <h6 class="fw-bold mb-1">1. Forging</h6>
-                  <p class="text-secondary small mb-0">The reinforcing bar end is enlarged by hydraulic cold forging process, increasing core area.</p>
+                  <p class="text-secondary small mb-0">Bar end is enlarged via hydraulic cold forging to increase root area.</p>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="process-step-box p-3">
                   <div class="process-step-num" style="width:36px;height:36px;font-size:1rem;margin-bottom:0.75rem;">2</div>
                   <h6 class="fw-bold mb-1">2. Threading</h6>
-                  <p class="text-secondary small mb-0">Standard ISO metric threads are machined directly onto the enlarged forged rebar section.</p>
+                  <p class="text-secondary small mb-0">ISO metric threads are machined directly onto the enlarged section.</p>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="process-step-box p-3">
                   <div class="process-step-num" style="width:36px;height:36px;font-size:1rem;margin-bottom:0.75rem;">3</div>
                   <h6 class="fw-bold mb-1">3. Mechanical Splicing</h6>
-                  <p class="text-secondary small mb-0">Threaded Vruddhi cold forged coupler joins the rebars, ensuring 100% parent bar rupture.</p>
+                  <p class="text-secondary small mb-0">Cold forged coupler joins rebars, ensuring 100% parent bar rupture.</p>
                 </div>
               </div>
             </div>
@@ -151,16 +151,16 @@
       </div>
 
       <!-- Mobilization Specs Banner -->
-      <div class="orin-card p-4 p-md-5" data-aos="fade-up">
-        <div class="row align-items-center gy-4">
+      <div class="orin-card p-3 p-sm-4 p-md-5" data-aos="fade-up">
+        <div class="row align-items-center gy-3">
           <div class="col-lg-8">
-            <h4 class="fw-bold mb-2">Need Machine Mobilization & Site Setup?</h4>
-            <p class="text-secondary mb-0">
+            <h4 class="fw-bold mb-2">Need Machine Mobilization &amp; Site Setup?</h4>
+            <p class="text-secondary mb-0 small" style="line-height: 1.6;">
               We mobilize machines with certified operators, tooling dies, Go/No-Go gauges, and on-site testing kits within <strong>5-10 days</strong> across India.
             </p>
           </div>
-          <div class="col-lg-4 text-lg-end">
-            <a href="{{ route('contact') }}" class="btn btn-orin-primary">
+          <div class="col-lg-4 text-lg-end pt-2 pt-lg-0">
+            <a href="{{ route('contact') }}" class="btn btn-orin-primary btn-mobile-full">
               <i class="bi bi-truck"></i> Book Machine Deployment
             </a>
           </div>
