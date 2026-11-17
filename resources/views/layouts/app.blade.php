@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ $metaTitle ?? 'ORIN | One Stop Shop for Rebar Solutions | Steelux Industries Surat' }}</title>
-  <meta name="description" content="{{ $metaDescription ?? 'ORIN Rebar Couplers by Steelux Industries Surat. One stop shop for creative infrastructure and rebar splicing solutions.' }}">
-  <meta name="keywords" content="ORIN, Rebar Coupler, Mechanical Splicing, TMT Bar Coupler, Parallel Thread Machine, Cold Forging, Steelux Industries Surat, Construction Infrastructure">
+  <title>{{ $metaTitle ?? 'Steelux Industries | One Stop Shop for Rebar Solutions | Surat' }}</title>
+  <meta name="description" content="{{ $metaDescription ?? 'Steelux Rebar Couplers by Steelux Industries Surat. One stop shop for creative infrastructure and rebar splicing solutions.' }}">
+  <meta name="keywords" content="Steelux, Rebar Coupler, Mechanical Splicing, TMT Bar Coupler, Parallel Thread Machine, Cold Forging, Steelux Industries Surat, Construction Infrastructure">
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="{{ asset('assets/favicon.png') }}">
+  <link rel="icon" type="image/png" href="{{ asset('assets/favicon.png') }}?v=2">
 
   <!-- Bootstrap 5.3.3 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">

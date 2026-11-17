@@ -3,7 +3,7 @@
   <div class="container">
     <!-- Brand Logo -->
     <a class="navbar-brand d-flex align-items-center gap-2 py-0" href="{{ route('home') }}">
-      <img src="{{ asset('assets/steelux_logo.png') }}" alt="STEELUX Industries - Construction Technology" class="navbar-logo-img">
+      <img src="{{ asset('assets/steelux_logo.png') }}?v=2" alt="STEELUX Industries" class="navbar-logo-img">
     </a>
 
     <!-- Navbar Toggler for Mobile -->

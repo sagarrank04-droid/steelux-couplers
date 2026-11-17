@@ -3,7 +3,7 @@
   <div class="container d-flex flex-wrap justify-content-between align-items-center py-1">
     <div class="d-flex align-items-center gap-2">
       <span class="pulse-dot"></span>
-      <span><strong>ORIN Mechanical Splicing Systems</strong> &bull; ISO Metric Standard Certified</span>
+      <span><strong>Steelux Mechanical Splicing Systems</strong> &bull; ISO Metric Standard Certified</span>
     </div>
     <div class="d-flex align-items-center gap-3">
       <span><i class="bi bi-geo-alt-fill text-info me-1"></i> Surat, Gujarat</span>

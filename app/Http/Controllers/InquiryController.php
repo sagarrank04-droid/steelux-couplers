@@ -26,7 +26,7 @@ class InquiryController extends Controller
         $message = $validated['reqMessage'] ?? 'Need quote for upcoming construction project.';
 
         // Format WhatsApp Message URL
-        $waText = "Hello Steelux Industries (ORIN),%0a%0a" .
+        $waText = "Hello Steelux Industries,%0a%0a" .
                   "I would like to request an instant quote / technical details:%0a" .
                   "• Name: " . urlencode($name) . "%0a" .
                   "• Mobile: " . urlencode($phone) . "%0a" .

@@ -1,18 +1,18 @@
 // ==========================================
-// ORIN REBAR COUPLER SAVINGS ENGINE & LOGIC
+// ORIN REBAR COUPLER MULTI-DIAMETER SAVINGS ENGINE & LOGIC
 // ==========================================
 
+// Official Brochure Specifications & Per-Joint Rates (50D Overlap vs ORIN Mechanical Coupler)
 const savingsData = {
-  16: { lapLength: 0.80, lapWeight: 1.27, lapCost: 71.12, couplerCost: 20, threadCost: 20, totalCouplerCost: 40, unitSaving: 31.12 },
-  20: { lapLength: 1.00, lapWeight: 2.48, lapCost: 138.88, couplerCost: 30, threadCost: 30, totalCouplerCost: 60, unitSaving: 78.88 },
-  25: { lapLength: 1.25, lapWeight: 4.84, lapCost: 271.04, couplerCost: 48, threadCost: 32, totalCouplerCost: 80, unitSaving: 191.04 },
-  32: { lapLength: 1.60, lapWeight: 10.16, lapCost: 568.96, couplerCost: 90, threadCost: 35, totalCouplerCost: 125, unitSaving: 443.96 },
-  36: { lapLength: 1.80, lapWeight: 14.46, lapCost: 809.76, couplerCost: 133, threadCost: 45, totalCouplerCost: 178, unitSaving: 631.76 },
-  40: { lapLength: 2.00, lapWeight: 19.84, lapCost: 1111.04, couplerCost: 183, threadCost: 50, totalCouplerCost: 233, unitSaving: 878.04 }
+  16: { lapLength: 0.80, lapWeight: 1.27, couplerCost: 20, threadCost: 20, totalCouplerCost: 40, parallelWt: 0.080, coldForgedWt: 0.070 },
+  20: { lapLength: 1.00, lapWeight: 2.48, couplerCost: 30, threadCost: 30, totalCouplerCost: 60, parallelWt: 0.180, coldForgedWt: 0.160 },
+  25: { lapLength: 1.25, lapWeight: 4.84, couplerCost: 48, threadCost: 32, totalCouplerCost: 80, parallelWt: 0.350, coldForgedWt: 0.300 },
+  32: { lapLength: 1.60, lapWeight: 10.16, couplerCost: 90, threadCost: 35, totalCouplerCost: 125, parallelWt: 0.670, coldForgedWt: 0.600 },
+  36: { lapLength: 1.80, lapWeight: 14.46, couplerCost: 133, threadCost: 45, totalCouplerCost: 178, parallelWt: 1.170, coldForgedWt: 1.100 },
+  40: { lapLength: 2.00, lapWeight: 19.84, couplerCost: 183, threadCost: 50, totalCouplerCost: 233, parallelWt: 1.350, coldForgedWt: 1.250 }
 };
 
-let currentBarSize = 25;
-let currentJointCount = 1000;
+let currentCouplerType = 'parallel'; // 'parallel' or 'cold_forged'
 
 document.addEventListener('DOMContentLoaded', () => {
   // Initialize AOS Animations
@@ -33,42 +33,76 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Format Indian Currency (₹ 1,91,040)
 function formatRupee(amount) {
-  return '₹' + Math.round(amount).toLocaleString('en-IN');
+  const safeVal = Number.isFinite(amount) ? amount : 0;
+  return '₹' + Math.round(safeVal).toLocaleString('en-IN');
 }
 
 // Format Numbers
 function formatNumber(num) {
-  return num.toLocaleString('en-IN');
+  const safeVal = Number.isFinite(num) ? num : 0;
+  return safeVal.toLocaleString('en-IN');
 }
 
-// Interactive Calculator Initializer
+// Interactive Multi-Diameter Calculator Initializer
 function initCalculator() {
-  const barButtons = document.querySelectorAll('.btn-bar-size');
-  const jointsRange = document.getElementById('jointsRange');
-  const jointsInput = document.getElementById('jointsInput');
+  const typeButtons = document.querySelectorAll('.btn-coupler-type');
+  const steelRateInput = document.getElementById('steelRateInput');
+  const jointInputs = document.querySelectorAll('.calc-joint-input');
+  const resetCalcBtn = document.getElementById('resetCalcBtn');
+  const activeTypeBadge = document.getElementById('activeCouplerTypeBadge');
 
-  barButtons.forEach(btn => {
+  if (!steelRateInput && jointInputs.length === 0) return;
+
+  // Toggle between Parallel Threaded & Cold Forged
+  typeButtons.forEach(btn => {
     btn.addEventListener('click', () => {
-      barButtons.forEach(b => b.classList.remove('active'));
+      typeButtons.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      currentBarSize = parseInt(btn.dataset.size);
+      currentCouplerType = btn.dataset.couplerType || 'parallel';
+
+      if (activeTypeBadge) {
+        activeTypeBadge.textContent = currentCouplerType === 'cold_forged'
+          ? 'Cold Forged'
+          : 'Parallel Threaded';
+      }
       updateCalculation();
     });
   });
 
-  if (jointsRange && jointsInput) {
-    jointsRange.addEventListener('input', (e) => {
-      currentJointCount = parseInt(e.target.value);
-      jointsInput.value = currentJointCount;
+  // Steel Rate input listener
+  if (steelRateInput) {
+    steelRateInput.addEventListener('input', updateCalculation);
+    steelRateInput.addEventListener('change', () => {
+      let val = parseFloat(steelRateInput.value);
+      if (isNaN(val) || val < 0) {
+        steelRateInput.value = 0;
+      }
       updateCalculation();
     });
+  }
 
-    jointsInput.addEventListener('input', (e) => {
-      let val = parseInt(e.target.value) || 100;
-      if (val < 100) val = 100;
-      if (val > 50000) val = 50000;
-      currentJointCount = val;
-      jointsRange.value = currentJointCount;
+  // Multi-MM Joint Count input listeners
+  jointInputs.forEach(input => {
+    input.addEventListener('input', updateCalculation);
+    input.addEventListener('focus', () => {
+      if (input.value === '0') {
+        input.select();
+      }
+    });
+    input.addEventListener('blur', () => {
+      if (input.value.trim() === '' || parseFloat(input.value) < 0) {
+        input.value = '0';
+        updateCalculation();
+      }
+    });
+  });
+
+  // Clear / Reset All Joint Inputs button
+  if (resetCalcBtn) {
+    resetCalcBtn.addEventListener('click', () => {
+      jointInputs.forEach(input => {
+        input.value = '0';
+      });
       updateCalculation();
     });
   }
@@ -76,16 +110,48 @@ function initCalculator() {
   updateCalculation();
 }
 
-// Update Real-Time Calculation & Visuals
+// Update Real-Time Multi-Diameter Calculation & Visuals
+// Formula from client sheet:
+// y = Total amount Lapping considering standard 50D
+// x = Total cost of Joints using M. couplers
+// % Saving = ((y - x) / y) * 100
 function updateCalculation() {
-  const data = savingsData[currentBarSize];
-  if (!data) return;
+  const steelRateInput = document.getElementById('steelRateInput');
+  const jointInputs = document.querySelectorAll('.calc-joint-input');
+  if (jointInputs.length === 0) return;
 
-  const totalLapCost = data.lapCost * currentJointCount;
-  const totalCouplerCost = data.totalCouplerCost * currentJointCount;
-  const totalSavings = totalLapCost - totalCouplerCost;
-  const percentSaved = Math.round((totalSavings / totalLapCost) * 100);
-  const totalSteelSavedKg = (data.lapWeight * currentJointCount).toFixed(0);
+  const steelRate = Math.max(0, parseFloat(steelRateInput?.value) || 0);
+
+  let totalLappingAmountY = 0;     // y
+  let totalCouplerAmountX = 0;     // x
+  let totalSteelWeightSavedKg = 0;
+  let totalJointsCount = 0;
+
+  jointInputs.forEach(input => {
+    const size = parseInt(input.dataset.size, 10);
+    const joints = Math.max(0, parseInt(input.value, 10) || 0);
+    const spec = savingsData[size];
+
+    if (spec && joints > 0) {
+      const rowLapWeightKg = joints * spec.lapWeight;
+      const rowLapCostY = rowLapWeightKg * steelRate;
+      const rowCouplerCostX = joints * spec.totalCouplerCost;
+
+      totalLappingAmountY += rowLapCostY;
+      totalCouplerAmountX += rowCouplerCostX;
+      totalSteelWeightSavedKg += rowLapWeightKg;
+      totalJointsCount += joints;
+
+      input.closest('.calc-joint-row')?.classList.add('has-value');
+    } else {
+      input.closest('.calc-joint-row')?.classList.remove('has-value');
+    }
+  });
+
+  const netSavings = totalLappingAmountY - totalCouplerAmountX; // (y - x)
+  const percentSaved = totalLappingAmountY > 0
+    ? ((netSavings / totalLappingAmountY) * 100)
+    : 0;
 
   // Update DOM Elements
   const totalSavingsEl = document.getElementById('totalSavings');
@@ -93,17 +159,28 @@ function updateCalculation() {
   const steelWastageCostEl = document.getElementById('steelWastageCost');
   const couplerJointCostEl = document.getElementById('couplerJointCost');
   const steelWeightSavedEl = document.getElementById('steelWeightSaved');
-  const lapLengthDisplayEl = document.getElementById('lapLengthDisplay');
+  const totalJointsBadgeEl = document.getElementById('totalJointsBadge');
 
-  if (totalSavingsEl) {
-    // Quick number transition
-    totalSavingsEl.textContent = formatRupee(totalSavings);
+  if (steelWastageCostEl) {
+    steelWastageCostEl.textContent = formatRupee(totalLappingAmountY);
   }
-  if (percentSavedBadge) percentSavedBadge.textContent = `${percentSaved}% Cost Saved`;
-  if (steelWastageCostEl) steelWastageCostEl.textContent = formatRupee(totalLapCost);
-  if (couplerJointCostEl) couplerJointCostEl.textContent = formatRupee(totalCouplerCost);
-  if (steelWeightSavedEl) steelWeightSavedEl.textContent = `${formatNumber(parseInt(totalSteelSavedKg))} kg Steel Saved`;
-  if (lapLengthDisplayEl) lapLengthDisplayEl.textContent = `${data.lapLength.toFixed(2)} m (50D)`;
+  if (couplerJointCostEl) {
+    couplerJointCostEl.textContent = formatRupee(totalCouplerAmountX);
+  }
+  if (totalSavingsEl) {
+    totalSavingsEl.textContent = formatRupee(netSavings);
+  }
+  if (percentSavedBadge) {
+    percentSavedBadge.textContent = totalLappingAmountY > 0
+      ? `${percentSaved.toFixed(2)}%`
+      : '0%';
+  }
+  if (steelWeightSavedEl) {
+    steelWeightSavedEl.textContent = `${formatNumber(Math.round(totalSteelWeightSavedKg))} kg Steel Saved`;
+  }
+  if (totalJointsBadgeEl) {
+    totalJointsBadgeEl.textContent = `${formatNumber(totalJointsCount)} Total Joints`;
+  }
 }
 
 // Handle Form Submission & WhatsApp Redirect
@@ -118,7 +195,7 @@ function initForm() {
       const quantity = document.getElementById('reqQuantity')?.value || '1000';
       const message = document.getElementById('reqMessage')?.value || '';
 
-      const whatsappText = `Hello ORIN / Steelux Industries,\n\nName: ${name}\nPhone: ${phone}\nRebar Size Required: ${barSize}\nEstimated Quantity: ${quantity}\nProject Details: ${message}`;
+      const whatsappText = `Hello Steelux Industries,\n\nName: ${name}\nPhone: ${phone}\nRebar Size Required: ${barSize}\nEstimated Quantity: ${quantity}\nProject Details: ${message}`;
       const whatsappUrl = `https://wa.me/918849001529?text=${encodeURIComponent(whatsappText)}`;
 
       // Toast feedback
@@ -166,4 +243,3 @@ function initMobileCollapse() {
     });
   });
 }
-

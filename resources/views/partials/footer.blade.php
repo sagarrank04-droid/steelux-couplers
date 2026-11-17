@@ -5,8 +5,8 @@
       
       <!-- Brand & Vision -->
       <div class="col-lg-4 col-md-12 mb-3 mb-lg-0">
-        <div class="d-flex align-items-center gap-2 mb-3">
-          <img src="{{ asset('assets/steelux_logo.png') }}" alt="STEELUX Industries - Construction Technology" class="footer-logo-img" style="height: 80px; width: auto;">
+        <div class="d-inline-flex align-items-center mb-3 p-2 px-3 rounded-3 bg-white shadow-sm">
+          <img src="{{ asset('assets/steelux_logo.png') }}?v=2" alt="STEELUX Industries" class="footer-logo-img" style="height: 68px; width: auto;">
         </div>
         <p class="text-white-85 small pe-lg-4" style="line-height: 1.75; color: rgba(255, 255, 255, 0.75);">
           We Are Construction And Contract Managing Company. Our Company Vision Is To Transform Structures Worldwide With TMT Joint Materials For a Sustainable Tomorrow.
@@ -75,7 +75,7 @@
     <!-- Copyright & Bottom Bar -->
     <div class="pt-4 mt-2 border-top border-white border-opacity-10 d-flex flex-wrap justify-content-between align-items-center gap-3 small text-white-85">
       <div style="color: rgba(255, 255, 255, 0.7);">
-        &copy; {{ date('Y') }} <strong class="text-white">Steelux Industries (ORIN)</strong>. All Rights Reserved.
+        &copy; {{ date('Y') }} <strong class="text-white">Steelux Industries</strong>. All Rights Reserved.
       </div>
       <div class="d-flex flex-wrap gap-3">
         <a href="{{ route('home') }}" class="text-white-85 text-decoration-none">Home</a>

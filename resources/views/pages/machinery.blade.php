@@ -4,9 +4,9 @@
   <!-- Page Header Banner -->
   <section class="py-5" style="background: linear-gradient(180deg, #ffffff 0%, var(--bg-section-alt) 100%); border-bottom: 1px solid var(--border-subtle);">
     <div class="container py-4 text-center">
-      <h1 class="hero-title mb-2">Specs & <span class="text-gradient">Machinery Matrix</span></h1>
+      <h1 class="hero-title mb-2">Specs &amp; <span class="text-gradient">Machinery Matrix</span></h1>
       <p class="hero-lead mx-auto" style="max-width: 750px;">
-        High-performance rebar processing machinery and comprehensive ISO metric coupler dimensional matrices (16mm to 40mm).
+        High-performance rebar processing machinery, visual 3-stage threading diagrams, and ISO metric coupler dimensional matrices (16mm to 40mm).
       </p>
     </div>
   </section>
@@ -37,27 +37,48 @@
         <!-- Parallel Threaded Pane -->
         <div class="tab-pane fade show active" id="parallel-pane" role="tabpanel">
           <div class="orin-card p-4 p-md-5">
-            <h4 class="fw-bold mb-3">Rebar Roll Parallel Threading System</h4>
-            <div class="row g-3 mb-4">
-              <div class="col-md-4">
-                <div class="process-step-box p-3">
-                  <div class="process-step-num" style="width:36px;height:36px;font-size:1rem;margin-bottom:0.75rem;">1</div>
-                  <h6 class="fw-bold mb-1">1. Peeling</h6>
-                  <p class="text-secondary small mb-0">Ribbing is peeled uniformly to create a smooth concentric diameter.</p>
+            
+            <!-- Machine Photo + Live Operation Showcase -->
+            <div class="row g-4 align-items-center mb-4 pb-3 border-bottom">
+              <div class="col-lg-5 text-center">
+                <img src="{{ asset('assets/process/machine_parallel_thread.jpg') }}" alt="Rebar Roll Parallel Thread Machine" class="machine-showcase-img shadow-sm">
+                <div class="mt-2">
+                  <span class="badge bg-primary-subtle text-primary fw-bold px-3 py-1">Rebar Roll Parallel Threading Unit</span>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="process-step-box p-3">
-                  <div class="process-step-num" style="width:36px;height:36px;font-size:1rem;margin-bottom:0.75rem;">2</div>
-                  <h6 class="fw-bold mb-1">2. Threading</h6>
-                  <p class="text-secondary small mb-0">Cold-rolled ISO metric threads are machined under hydraulic pressure.</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="process-step-box p-3">
-                  <div class="process-step-num" style="width:36px;height:36px;font-size:1rem;margin-bottom:0.75rem;">3</div>
-                  <h6 class="fw-bold mb-1">3. Mechanical Splicing</h6>
-                  <p class="text-secondary small mb-0">Coupler is screwed to connect two rebars with 100% tensile strength.</p>
+              <div class="col-lg-7">
+                <h4 class="fw-bold mb-2">Rebar Roll Parallel Threading System</h4>
+                <p class="text-secondary small mb-3">
+                  High-speed hydraulic roll threading machine that peels surface ribs and cold-rolls ISO metric threads directly onto 16mm to 40mm TMT bars in seconds.
+                </p>
+                <div class="row g-3">
+                  <div class="col-sm-4">
+                    <div class="diagram-step-card">
+                      <div class="diagram-step-img-wrap">
+                        <img src="{{ asset('assets/process/diagram_parallel_1_peeling.jpg') }}" alt="1. Peeling Rebar Ribs" class="diagram-step-img">
+                      </div>
+                      <h6 class="fw-bold mb-1">1. Peeling</h6>
+                      <p class="text-secondary small mb-0">Ribbing at bar end is peeled to a smooth cylinder.</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="diagram-step-card">
+                      <div class="diagram-step-img-wrap">
+                        <img src="{{ asset('assets/process/diagram_parallel_2_threading.jpg') }}" alt="2. Roll Threading ISO Metric" class="diagram-step-img">
+                      </div>
+                      <h6 class="fw-bold mb-1">2. Threading</h6>
+                      <p class="text-secondary small mb-0">Peeled end is roll-threaded to ISO metric pitch.</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="diagram-step-card">
+                      <div class="diagram-step-img-wrap">
+                        <img src="{{ asset('assets/process/diagram_parallel_3_splicing.jpg') }}" alt="3. Mechanical Splicing Coupler" class="diagram-step-img">
+                      </div>
+                      <h6 class="fw-bold mb-1">3. Splicing</h6>
+                      <p class="text-secondary small mb-0">Coupler connects both threaded rebars securely.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -94,27 +115,48 @@
         <!-- Cold Forged Pane -->
         <div class="tab-pane fade" id="forged-pane" role="tabpanel">
           <div class="orin-card p-4 p-md-5">
-            <h4 class="fw-bold mb-3">Rebar Cold Forging &amp; Threading System</h4>
-            <div class="row g-3 mb-4">
-              <div class="col-md-4">
-                <div class="process-step-box p-3">
-                  <div class="process-step-num" style="width:36px;height:36px;font-size:1rem;margin-bottom:0.75rem;">1</div>
-                  <h6 class="fw-bold mb-1">1. Forging</h6>
-                  <p class="text-secondary small mb-0">Bar end is enlarged via hydraulic cold forging to increase root area.</p>
+            
+            <!-- Cold Forging Machine Photo + 3 Diagram Cards -->
+            <div class="row g-4 align-items-center mb-4 pb-3 border-bottom">
+              <div class="col-lg-5 text-center">
+                <img src="{{ asset('assets/process/machine_cold_forging.jpg') }}" alt="Rebar Cold Forging Machine" class="machine-showcase-img shadow-sm">
+                <div class="mt-2">
+                  <span class="badge bg-info-subtle text-info fw-bold px-3 py-1">Hydraulic Rebar Cold Forging Unit</span>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="process-step-box p-3">
-                  <div class="process-step-num" style="width:36px;height:36px;font-size:1rem;margin-bottom:0.75rem;">2</div>
-                  <h6 class="fw-bold mb-1">2. Threading</h6>
-                  <p class="text-secondary small mb-0">ISO metric threads are machined directly onto the enlarged section.</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="process-step-box p-3">
-                  <div class="process-step-num" style="width:36px;height:36px;font-size:1rem;margin-bottom:0.75rem;">3</div>
-                  <h6 class="fw-bold mb-1">3. Mechanical Splicing</h6>
-                  <p class="text-secondary small mb-0">Cold forged coupler joins rebars, ensuring 100% parent bar rupture.</p>
+              <div class="col-lg-7">
+                <h4 class="fw-bold mb-2">Rebar Cold Forging &amp; Threading System</h4>
+                <p class="text-secondary small mb-3">
+                  Enlarges the rebar end diameter via hydraulic cold forging before cutting threads—increasing the core root area for heavy seismic zones.
+                </p>
+                <div class="row g-3">
+                  <div class="col-sm-4">
+                    <div class="diagram-step-card">
+                      <div class="diagram-step-img-wrap">
+                        <img src="{{ asset('assets/process/diagram_cold_1_forging.jpg') }}" alt="1. Cold Forging Bar End" class="diagram-step-img">
+                      </div>
+                      <h6 class="fw-bold mb-1">1. Forging</h6>
+                      <p class="text-secondary small mb-0">Bar end is enlarged by cold forging to boost diameter.</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="diagram-step-card">
+                      <div class="diagram-step-img-wrap">
+                        <img src="{{ asset('assets/process/diagram_cold_2_threading.jpg') }}" alt="2. Threading Enlarged End" class="diagram-step-img">
+                      </div>
+                      <h6 class="fw-bold mb-1">2. Threading</h6>
+                      <p class="text-secondary small mb-0">Standard ISO metric threads cut onto enlarged end.</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="diagram-step-card">
+                      <div class="diagram-step-img-wrap">
+                        <img src="{{ asset('assets/process/diagram_cold_3_splicing.jpg') }}" alt="3. Cold Forged Coupler Splice" class="diagram-step-img">
+                      </div>
+                      <h6 class="fw-bold mb-1">3. Splicing</h6>
+                      <p class="text-secondary small mb-0">Cold forged coupler joins bars with full rupture strength.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -150,13 +192,71 @@
 
       </div>
 
+      <!-- On-Site 4-Step Live Photo Execution Strip -->
+      <div class="mb-5" data-aos="fade-up">
+        <div class="text-center mb-4">
+          <h3 class="fw-bold mb-1">Live On-Site Execution Process</h3>
+          <p class="text-secondary small mb-0">How our operators thread, cap, and splice rebars on your construction site</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-xl-3 col-md-6">
+            <div class="process-photo-card">
+              <div class="process-photo-wrap">
+                <span class="process-step-badge">Step 01</span>
+                <img src="{{ asset('assets/process/step1_rebar_threading.jpg') }}" alt="Rebar Threading on Machine" class="process-photo-img">
+              </div>
+              <div class="process-photo-body">
+                <h6 class="fw-bold text-dark mb-1">1. Threading on Machine</h6>
+                <p class="text-secondary small mb-0">Cutting ISO metric threads on TMT bar end.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6">
+            <div class="process-photo-card">
+              <div class="process-photo-wrap">
+                <span class="process-step-badge">Step 02</span>
+                <img src="{{ asset('assets/process/step2_protective_cap.jpg') }}" alt="Protective Plastic Thread Cap" class="process-photo-img">
+              </div>
+              <div class="process-photo-body">
+                <h6 class="fw-bold text-dark mb-1">2. Protective End Cap</h6>
+                <p class="text-secondary small mb-0">Fitting red plastic cap to protect threads.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6">
+            <div class="process-photo-card">
+              <div class="process-photo-wrap">
+                <span class="process-step-badge">Step 03</span>
+                <img src="{{ asset('assets/process/step3_coupler_joining.jpg') }}" alt="Joining Two Rebars with Coupler" class="process-photo-img">
+              </div>
+              <div class="process-photo-body">
+                <h6 class="fw-bold text-dark mb-1">3. Joining 2 Bars with Coupler</h6>
+                <p class="text-secondary small mb-0">Screwing two rebars into one coupler.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6">
+            <div class="process-photo-card">
+              <div class="process-photo-wrap">
+                <span class="process-step-badge" style="background: linear-gradient(135deg, #059669, #10b981);">Step 04</span>
+                <img src="{{ asset('assets/process/step4_torque_tightening.jpg') }}" alt="Final Wrench Tightening" class="process-photo-img">
+              </div>
+              <div class="process-photo-body">
+                <h6 class="fw-bold text-dark mb-1">4. Final Wrench Lock</h6>
+                <p class="text-secondary small mb-0">Tightening joint for 100% tensile lock.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Mobilization Specs Banner -->
       <div class="orin-card p-3 p-sm-4 p-md-5" data-aos="fade-up">
         <div class="row align-items-center gy-3">
           <div class="col-lg-8">
             <h4 class="fw-bold mb-2">Need Machine Mobilization &amp; Site Setup?</h4>
             <p class="text-secondary mb-0 small" style="line-height: 1.6;">
-              We mobilize machines with certified operators, tooling dies, Go/No-Go gauges, and on-site testing kits within <strong>5-10 days</strong> across India.
+              We mobilize machines with certified operators, tooling dies, Go/No-Go gauges, and protective thread caps within <strong>5-10 days</strong> across India.
             </p>
           </div>
           <div class="col-lg-4 text-lg-end pt-2 pt-lg-0">

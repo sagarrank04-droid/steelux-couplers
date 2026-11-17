@@ -6,28 +6,39 @@
     <div class="container py-4 text-center">
       <h1 class="hero-title mb-2">About <span class="text-gradient">Steelux Industries</span></h1>
       <p class="hero-lead mx-auto" style="max-width: 750px;">
-        Pioneering precision mechanical rebar splicing systems, zero steel wastage technology, and high-rise structural continuity.
+        Pioneering precision CNC rebar coupler manufacturing, on-site threading technology, and zero steel wastage solutions from Surat, Gujarat.
       </p>
     </div>
   </section>
 
-  <!-- About Detailed Content -->
+  <!-- About Detailed Content + Visual Factory Showcase -->
   <section class="py-5">
     <div class="container py-4">
       <div class="row align-items-center gy-4 mb-5">
         <div class="col-lg-6" data-aos="fade-right">
+          <span class="badge bg-primary-subtle text-primary fw-bold px-3 py-1 rounded-pill mb-2">SURAT MANUFACTURING PLANT</span>
           <h2 class="section-title">Transforming Modern Construction</h2>
           <p class="text-secondary mb-3" style="line-height: 1.7;">
-            <strong>Steelux Industries (ORIN)</strong> is a specialized mechanical rebar splicing enterprise based in Surat, Gujarat. We replace traditional 50D overlap lapping with certified concentric couplers—eliminating up to 80% steel wastage, relieving column congestion, and guaranteeing 100% parent bar break strength.
+            <strong>Steelux Industries (ORIN)</strong> is a specialized mechanical rebar splicing manufacturer based in Surat, Gujarat. We replace traditional 50D overlap lapping with precision CNC-machined couplers—eliminating up to 80% steel wastage, relieving column congestion, and guaranteeing 100% parent bar break strength.
           </p>
-          <div class="d-flex flex-wrap gap-3 mb-4">
-            <div class="d-flex align-items-center gap-2">
-              <i class="bi bi-patch-check-fill text-info fs-5"></i>
-              <span class="text-dark fw-bold">ISO Metric Standard Certified</span>
+          <div class="row g-2 mb-4">
+            <div class="col-6">
+              <div class="p-3 rounded-3 bg-light border d-flex align-items-center gap-2">
+                <i class="bi bi-patch-check-fill text-info fs-4"></i>
+                <div>
+                  <h6 class="fw-bold text-dark mb-0 small">ISO Metric Standard</h6>
+                  <small class="text-secondary">16mm to 40mm Sizes</small>
+                </div>
+              </div>
             </div>
-            <div class="d-flex align-items-center gap-2">
-              <i class="bi bi-shield-check text-success fs-5"></i>
-              <span class="text-dark fw-bold">100% Bar Break Guarantee</span>
+            <div class="col-6">
+              <div class="p-3 rounded-3 bg-light border d-flex align-items-center gap-2">
+                <i class="bi bi-shield-check text-success fs-4"></i>
+                <div>
+                  <h6 class="fw-bold text-dark mb-0 small">100% Bar Break</h6>
+                  <small class="text-secondary">IS 16172 Tested</small>
+                </div>
+              </div>
             </div>
           </div>
           <div class="d-flex flex-wrap gap-3">
@@ -43,7 +54,7 @@
         <div class="col-lg-6" data-aos="fade-left">
           <div class="about-card-wrap">
             <div class="about-img-container">
-              <img src="{{ asset('assets/hero_skyscraper.jpg') }}" alt="ORIN Engineering & Manufacturing" class="about-img" onerror="this.src='{{ asset('assets/img_2.jpg') }}'">
+              <img src="{{ asset('assets/process/cnc_coupler_manufacturing.jpg') }}" alt="Steelux CNC Rebar Coupler Manufacturing Plant" class="about-img">
             </div>
             
             <!-- Floating Badge: Certified Quality -->
@@ -53,48 +64,63 @@
               </div>
               <div>
                 <h6 class="mb-0 fw-bold text-dark" style="font-size: 0.95rem;">ISO 9001:2015 &amp; IS 16172</h6>
-                <small class="text-secondary">Certified Rebar Splicing Quality</small>
+                <small class="text-secondary">Precision CNC Coupler Manufacturing</small>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Core Pillars -->
+      <!-- Visual Product & Facility Gallery -->
       <div class="row g-4 mb-5">
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="orin-card h-100">
-            <div class="icon-box">
-              <i class="bi bi-shield-check"></i>
+          <div class="visual-card">
+            <div class="visual-card-img-wrap" style="background: #ffffff;">
+              <img src="{{ asset('assets/process/couplers_size_lineup.jpg') }}" alt="16mm to 40mm Coupler Lineup" class="visual-card-img" style="object-fit: contain; padding: 12px;">
+              <span class="process-action-tag"><i class="bi bi-layers-fill text-info"></i> 16mm–40mm</span>
             </div>
-            <h4 class="fw-bold mb-2">Quality &amp; Standards</h4>
-            <p class="text-secondary mb-0">
-              Compliant with IS 16172 and international mechanical splicing specifications.
-            </p>
+            <div class="visual-card-body">
+              <div>
+                <h4 class="fw-bold mb-1">Precision Steel Couplers</h4>
+                <p class="text-secondary small mb-0">
+                  High-tensile carbon steel couplers machined to exact ISO metric thread tolerances.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-          <div class="orin-card h-100">
-            <div class="icon-box" style="color: #0284c7; border-color: rgba(2,132,199,0.3); background: rgba(2,132,199,0.1);">
-              <i class="bi bi-cpu"></i>
+          <div class="visual-card">
+            <div class="visual-card-img-wrap" style="background: #ffffff;">
+              <img src="{{ asset('assets/process/cnc_vmc_machine.jpg') }}" alt="CNC VMC Machining Center" class="visual-card-img" style="object-fit: contain; padding: 10px;">
+              <span class="process-action-tag"><i class="bi bi-cpu text-warning"></i> CNC / VMC Tech</span>
             </div>
-            <h4 class="fw-bold mb-2">Advanced Machinery</h4>
-            <p class="text-secondary mb-0">
-              High-speed parallel threading and cold forging units mobilized across India.
-            </p>
+            <div class="visual-card-body">
+              <div>
+                <h4 class="fw-bold mb-1">Advanced CNC Machinery</h4>
+                <p class="text-secondary small mb-0">
+                  Automated CNC &amp; VMC production lines alongside portable on-site threading machines.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-          <div class="orin-card h-100">
-            <div class="icon-box" style="color: #059669; border-color: rgba(5,150,105,0.3); background: rgba(5,150,105,0.1);">
-              <i class="bi bi-recycle"></i>
+          <div class="visual-card">
+            <div class="visual-card-img-wrap">
+              <img src="{{ asset('assets/process/tensile_testing_lab.jpg') }}" alt="Quality Testing Lab" class="visual-card-img">
+              <span class="process-action-tag"><i class="bi bi-shield-check text-success"></i> 100% Tested</span>
             </div>
-            <h4 class="fw-bold mb-2">Steel Conservation</h4>
-            <p class="text-secondary mb-0">
-              Eliminates tons of unnecessary lap steel, lowering costs and carbon footprint.
-            </p>
+            <div class="visual-card-body">
+              <div>
+                <h4 class="fw-bold mb-1">Quality &amp; Tensile Lab</h4>
+                <p class="text-secondary small mb-0">
+                  Every batch undergoes Go/No-Go gauge verification and UTM tensile pull testing.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

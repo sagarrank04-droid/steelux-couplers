@@ -20,9 +20,25 @@
           <!-- Contact Info Left Column -->
           <div class="col-lg-6">
             <h2 class="section-title mb-3">Direct Factory Dispatch &amp; Helpline</h2>
-            <p class="text-secondary mb-4">
+            <p class="text-secondary mb-3">
               Get immediate coupler dispatches, test reports, or machine mobilization on your active site.
             </p>
+
+            <!-- Visual Mini Gallery of Ready Stock & Mobilization -->
+            <div class="row g-2 mb-4">
+              <div class="col-6">
+                <div class="rounded-3 overflow-hidden border shadow-sm position-relative">
+                  <img src="{{ asset('assets/process/cnc_coupler_manufacturing.jpg') }}" alt="Factory Ready Coupler Stock" class="w-100 d-block" style="height: 120px; object-fit: cover;">
+                  <span class="badge bg-dark bg-opacity-75 position-absolute bottom-0 start-0 m-2">Ready Stock (16-40mm)</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="rounded-3 overflow-hidden border shadow-sm position-relative">
+                  <img src="{{ asset('assets/process/onsite_machine_mobilization.jpg') }}" alt="On-Site Machine Mobilization" class="w-100 d-block" style="height: 120px; object-fit: cover;">
+                  <span class="badge bg-primary position-absolute bottom-0 start-0 m-2">5-10 Day Site Setup</span>
+                </div>
+              </div>
+            </div>
 
             <div class="d-flex flex-column gap-3 mb-4">
               <div class="d-flex align-items-start gap-3">

@@ -12,8 +12,8 @@ class PageController extends Controller
     public function home()
     {
         return view('pages.home', [
-            'metaTitle' => 'ORIN | One Stop Shop for Rebar Solutions | Steelux Industries Surat',
-            'metaDescription' => 'ORIN Rebar Couplers by Steelux Industries Surat. One stop shop for creative infrastructure and rebar splicing solutions. Save up to 80% steel joint costs.'
+            'metaTitle' => 'Steelux Industries | One Stop Shop for Rebar Solutions | Surat',
+            'metaDescription' => 'Steelux Rebar Couplers by Steelux Industries Surat. One stop shop for creative infrastructure and rebar splicing solutions. Save up to 80% steel joint costs.'
         ]);
     }
 
@@ -23,7 +23,7 @@ class PageController extends Controller
     public function about()
     {
         return view('pages.about', [
-            'metaTitle' => 'About Us | Steelux Industries (ORIN Precision Couplers)',
+            'metaTitle' => 'About Us | Steelux Industries (Precision Rebar Couplers)',
             'metaDescription' => 'Learn about Steelux Industries Surat, pioneering sustainable high-tensile TMT rebar splicing systems with 100% parent bar break guarantee.'
         ]);
     }
@@ -34,7 +34,7 @@ class PageController extends Controller
     public function services()
     {
         return view('pages.services', [
-            'metaTitle' => 'Core Splicing Services | Steelux Industries ORIN',
+            'metaTitle' => 'Core Splicing Services | Steelux Industries',
             'metaDescription' => 'Explore our infrastructure solutions, precision coupler manufacturing, on-site machine mobilization, and technical splicing services.'
         ]);
     }
@@ -45,8 +45,8 @@ class PageController extends Controller
     public function advantages()
     {
         return view('pages.advantages', [
-            'metaTitle' => 'Key Advantages of ORIN Couplers | Zero Wastage & Cost Savings',
-            'metaDescription' => 'Save up to 80% steel costs, eliminate lap congestion, and ensure 100% tensile strength with ORIN mechanical rebar couplers.'
+            'metaTitle' => 'Key Advantages of Steelux Couplers | Zero Wastage & Cost Savings',
+            'metaDescription' => 'Save up to 80% steel costs, eliminate lap congestion, and ensure 100% tensile strength with Steelux mechanical rebar couplers.'
         ]);
     }
 
@@ -78,7 +78,7 @@ class PageController extends Controller
     public function projects()
     {
         return view('pages.projects', [
-            'metaTitle' => 'Landmark Projects & Trusted Developers | ORIN Couplers',
+            'metaTitle' => 'Landmark Projects & Trusted Developers | Steelux Couplers',
             'metaDescription' => 'Trusted by 15 premier developer groups and supplied to iconic high-rise towers including Prism Luxuria, Anthem Arica, Vishwa 99 and more.'
         ]);
     }
